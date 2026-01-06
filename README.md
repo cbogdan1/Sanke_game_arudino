@@ -28,10 +28,7 @@
    - 4.1 Testare Hardware
    - 4.2 Testare Functionala
 
-
-## 1 Introducere
-
-### 1.1 Descrierea Proiectului
+### Descrierea Proiectului
 
 Acest proiect implementeaza jocul clasic Snake pe un sistem embedded bazat pe Arduino.
 Jocul este afisat pe un ecran OLED monocrom si controlat prin intermediul unui joystick ana-
