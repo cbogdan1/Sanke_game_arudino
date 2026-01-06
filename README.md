@@ -36,4 +36,4 @@
 Acest proiect implementeaza jocul clasic Snake pe un sistem embedded bazat pe Arduino.
 Jocul este afisat pe un ecran OLED monocrom si controlat prin intermediul unui joystick ana-
 logic. Scopul proiectului este de a demonstra interactiunea in timp real dintre intrari (senzori),
-logica de procesare (microcontroller) si iesiri (display), intr-un format interactiv si distractiv.
+logica de procesare (microcontroller) si iesiri (display).
