@@ -24,8 +24,8 @@
 
   const int x_max_lenght=SCREEN_WIDTH/block_length;
   const int y_max_lenght=SCREEN_HEIGHT/block_width;
-  int snakeX[x_max_lenght];
-  int snakeY[y_max_lenght];
+  int snakeX[50];
+  int snakeY[50];
   int snake_length=3;
 
   enum dir { right, left, up, down };
@@ -170,7 +170,9 @@
     }
 
     if (snakeX[0] == foodX && snakeY[0] == foodY) {
-      snake_length++;
+      if(snake_length < 50) {
+        snake_length++;
+      }
       foodExists = false;
     }
 
